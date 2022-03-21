@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background: #dd9933;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 75px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
+    width: 100%;
+    color: #343535;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+
+img {
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px;
+    margin: 0 auto;
+    width: 350px;
+    height: 250px;
+}

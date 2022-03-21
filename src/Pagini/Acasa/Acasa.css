@@ -1,0 +1,160 @@
+.container {
+    background-color: #e8e8e8;
+    border-radius: 24px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #333333;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #333333;
+}
+
+.chat {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #333333;
+    color: #ca9f5c;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-right: 65px;
+    line-height: 29px;
+    color: #595959;
+}
+
+.img {
+    margin-left: 30px;
+    width: 270px;
+    height: 250px;
+    border-radius: 13px;
+}
+
+
+button {
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #ca9f5c;
+    margin: 25px;
+    border: none;
+    margin-left: 165px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #595959;
+    color: #ca9f5c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.icon {
+    width: 45px;
+    height: 25px;
+    animation: phone-pulse 2s infinite ease-in-out;
+}
+
+@keyframes phone-pulse {
+    0% {
+        transform: scale(0.5);
+    }
+    
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e8e8e8;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #333333;
+}
+
+span {
+    display: flex;
+    font-size: 18px;
+    line-height: 29px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+.option {
+    margin: auto;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #333333;
+}
+
+.imag {
+    margin-right: 90px;
+    width: 350px;
+    height: 550px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.contact {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.next {
+    background-color: #333333;
+    width: 35px;
+    height: 35px;
+}
+
+

@@ -1,0 +1,39 @@
+h1 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #333333;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-right: 65px;
+    line-height: 29px;
+    color: #595959;
+}
+.option {
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e8e8e8;
+}
+
+
+h4 {
+    text-align: left;
+    margin-left: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #333333;
+}
